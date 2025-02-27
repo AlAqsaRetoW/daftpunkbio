@@ -1,16 +1,32 @@
 body {
-    background-color: #555555;
+    background-color: #7b2cbf;
     color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+nav ul {
+    list-style: none;
+}
+
+h1 {
+    margin-top: 12px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+a {
     color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5em;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 ul {
@@ -18,6 +34,19 @@ ul {
     gap: 30px;
 }
 
-#title {
-    margin-left: 2rem;
+.main-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* #title {
+    
+} */
+
+#daft-punk-coachella {
+    width: 500px;
+    border-radius: 3%;
+
 }
