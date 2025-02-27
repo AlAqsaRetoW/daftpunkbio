@@ -1,11 +1,12 @@
 body {
-    background-color: #7b2cbf;
+    background-color: #000000;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
     list-style: none;
+    font-weight: 600;
 }
 
 h1 {
@@ -39,6 +40,17 @@ ul {
     align-items: center;
     justify-content: space-around;
 
+}
+
+#biography {
+    align-items: center;
+    font-size: large;
+    margin: 1rem;
+}
+
+p{
+    font-size: 1.5em;
+    
 }
 
 /* #title {
