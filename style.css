@@ -4,6 +4,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 nav ul {
     list-style: none;
     font-weight: 600;
@@ -13,8 +18,8 @@ h1 {
     margin-top: 12px;
 }
 
-h2 {
-    font-size: 35px;
+h2 span {
+    font-size: 50px;
 }
 
 a {
@@ -35,30 +40,27 @@ ul {
     gap: 30px;
 }
 
-.main-section-title {
+.section-title {
+    padding-top: 10vh;
+    margin: 0vw 10vw;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
-#biography {
+.section {
     align-items: center;
     font-size: large;
-    margin: 1rem;
+    padding-top: 10vh;
+    margin: 0vw 10vw;
+    height: 80vh;
 }
 
-p{
+p {
     font-size: 1.5em;
-    
-}
 
-/* #title {
-    
-} */
+}
 
 #daft-punk-coachella {
     width: 500px;
     border-radius: 3%;
-
 }
