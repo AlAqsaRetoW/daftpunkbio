@@ -35,7 +35,7 @@ ul {
     gap: 30px;
 }
 
-.title-section{
+.title-section {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -45,7 +45,7 @@ ul {
 
 }
 
-.title-content{
+.title-content {
     flex: 1;
     min-height: 300px;
     display: flex;
@@ -53,8 +53,8 @@ ul {
     justify-content: center;
 }
 
-.title-content h2{
-    font-size: 4vw;
+.title-content h2 {
+    font-size: clamp(2.3rem, 4.5vw, 4.5vw); /* Min size, preferred size, max size */
     line-height: 1.4;
     margin: 0;
 }
@@ -64,7 +64,7 @@ ul {
     max-width: 600px;
     object-fit: cover;
     border-radius: 1%;
-  }
+}
 
 
 .section {
