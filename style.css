@@ -111,7 +111,28 @@ p {
 .contact-section{
     min-height: 80vh;
     padding-top: 10vh;
+    padding-bottom: 10vh;
     margin: 0vw 10vw;
     align-items: center;
     font-size: large;
+}
+
+.contact-section a {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact-section p {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.contact-logo{
+    max-height: 64px;
+    vertical-align: middle;
 }
