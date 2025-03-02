@@ -11,7 +11,7 @@ header {
     padding: 2.5rem;
 }
 
-.logo-nav{
+.logo-nav {
     margin: 0;
     margin-left: 2vw;
     max-width: 100px;
@@ -36,7 +36,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgb(129, 27, 245);
-}
+}   
 
 .title-section {
     display: flex;
@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 
 .title-content h2 {
-    font-size: clamp(2.3rem, 4.5vw, 4.5vw);
+    font-size: clamp(3.6rem, 4.5vw, 4.5vw);
     /* Min size, preferred size, max size */
     line-height: 1.4;
     margin: 0;
@@ -62,22 +62,49 @@ nav ul li a:hover {
 
 .title-section img {
     max-width: 600px;
+    /* height: 680px; */
     object-fit: cover;
     border-radius: 1%;
 }
 
 .bio-section {
-
-}
-
-.section {
-    align-items: center;
-    font-size: large;
+    min-height: 80vh;
     padding-top: 10vh;
     margin: 0vw 10vw;
-    height: 80vh;
+    align-items: center;
+    font-size: large;
 }
 
 p {
     font-size: 1.5em;
+}
+
+.journey-section {
+    min-height: 80vh;
+    padding-top: 10vh;
+    margin: 0vw 10vw;
+    align-items: center;
+    font-size: large;
+}
+
+.random-access-memories{
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+.listen-section{
+    min-height: 80vh;
+    padding-top: 10vh;
+    margin: 0vw 10vw;
+    align-items: center;
+    font-size: large;
+}
+
+.contact-section{
+    min-height: 80vh;
+    padding-top: 10vh;
+    margin: 0vw 10vw;
+    align-items: center;
+    font-size: large;
 }
