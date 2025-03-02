@@ -11,8 +11,10 @@ header {
     padding: 2.5rem;
 }
 
-h1 {
+.logo-nav{
     margin: 0;
+    margin-left: 2vw;
+    max-width: 100px;
 }
 
 nav ul {
@@ -27,8 +29,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    padding: 15px 20px;
-    border-radius: 0.5rem;
+    padding: 10px 10px;
+    border-radius: 5%;
     font-size: 1.5em;
 }
 
@@ -64,7 +66,9 @@ nav ul li a:hover {
     border-radius: 1%;
 }
 
-.bio-section {}
+.bio-section {
+
+}
 
 .section {
     align-items: center;
