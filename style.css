@@ -136,3 +136,10 @@ p {
     max-height: 64px;
     vertical-align: middle;
 }
+
+.copyright {
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem 0;
+    color: #999;
+}
